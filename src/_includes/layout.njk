@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ dir }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/sakura-earthly.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <title>Thomas Brun - {{ title }}</title>
+</head>
+
+<body>
+    <main>
+        <h1 style="text-align: center;">{{ greeting }}</h1>
+        <div>
+            <img src="/assets/images/profile-picture-rounded.png" alt="Profile Picture">
+        </div>
+        {{ content | safe }}
+        <hr>
+        <a href="/en/">English</a> | <a href="/fr/">Français</a>
+    </main>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>

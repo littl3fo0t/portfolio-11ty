@@ -1,0 +1,22 @@
+{
+    "en": {
+        "home": {
+            "url": "/en/",
+            "label": "home"
+        },
+        "about": {
+            "url": "/en/about/",
+            "label": "about"
+        }
+    },
+    "fr": {
+        "home": {
+            "url": "/fr/",
+            "label": "home"
+        },
+        "about": {
+            "url": "/fr/a-propos/",
+            "label": "about"
+        }
+    }
+}

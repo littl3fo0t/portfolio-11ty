@@ -1,6 +1,7 @@
 {
-    "dir": "ltr",
-    "locale": "en",
-    "title": "Développeur Full Stack",
-    "greeting": "Bienvenue sur mon site"
+  "dir": "ltr",
+  "title": "Développeur Full Stack",
+  "greeting": "Salut, je m'appelle Thomas 👋",
+  "home": "Accueil",
+  "about": "À Propos"
 }

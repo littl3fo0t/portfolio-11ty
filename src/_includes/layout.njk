@@ -7,15 +7,44 @@
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/sakura-earthly.css">
     <link rel="stylesheet" href="/assets/css/prism.css">
+    <style>
+        h1, nav {
+            text-align: center;
+        }
+        
+        .profile-picture {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 50%;
+        }
+
+        .technologies-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .technologies-container > a {
+            text-decoration: none;
+            
+        }
+
+        .technologies-container > a > img {
+            height: 40px;
+            width: auto;
+            transition: all 0.3s ease;
+        }
+    </style>
     <title>Thomas Brun - {{ title }}</title>
 </head>
 
 <body>
     <main>
-        <h1 style="text-align: center;">{{ greeting }}</h1>
-        <div>
-            <img src="/assets/images/profile-picture-rounded.png" alt="Profile Picture">
-        </div>
         {{ content | safe }}
         <hr>
         <a href="/en/">English</a> | <a href="/fr/">Français</a>

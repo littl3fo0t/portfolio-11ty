@@ -1,6 +1,7 @@
 {
-    "dir": "ltr",
-    "locale": "en",
-    "title": "Full-Stack Developer",
-    "greeting": "Welcome to my website"
+  "dir": "ltr",
+  "title": "Full-Stack Developer",
+  "greeting": "Hi, I'm Thomas 👋",
+  "home": "Home",
+  "about": "About Me"
 }

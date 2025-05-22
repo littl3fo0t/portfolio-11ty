@@ -1,0 +1,7 @@
+<div class="technologies-container">
+    {% for item in technologies %}
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="technology-link">
+            <img src="{{ item.img_url }}" alt="{{ item.technology }}">
+        </a>
+    {% endfor %}
+</div>

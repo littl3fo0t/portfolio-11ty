@@ -1,0 +1,77 @@
+[
+    {
+        "technology": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
+        "img_url": "/assets/images/logos/typescript-icon.svg"
+    },
+    {
+        "technology": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "img_url": "/assets/images/logos/javascript.svg"
+    },
+    {
+        "technology": "GitHub",
+        "url": "https://github.com/",
+        "img_url": "/assets/images/logos/github-icon.svg"
+    },
+    {
+        "technology": "React",
+        "url": "https://react.dev/",
+        "img_url": "/assets/images/logos/react.svg"
+    },
+    {
+        "technology": "Vite",
+        "url": "https://vite.dev/",
+        "img_url": "/assets/images/logos/vitejs.svg"
+    },
+    {
+        "technology": "Python",
+        "url": "https://www.python.org/",
+        "img_url": "/assets/images/logos/python.svg"
+    },
+    {
+        "technology": "Go",
+        "url": "https://go.dev/",
+        "img_url": "/assets/images/logos/go.svg"
+    },
+    {
+        "technology": "C#",
+        "url": "https://dotnet.microsoft.com/en-us/languages/csharp",
+        "img_url": "/assets/images/logos/c-sharp.svg"
+    },
+    {
+        "technology": "ASP.NET",
+        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+        "img_url": "/assets/images/logos/Microsoft_.NET_logo.svg"
+    },
+    {
+        "technology": "php",
+        "url": "https://www.php.net/",
+        "img_url": "/assets/images/logos/php.svg"
+    },
+    {
+        "technology": "MySQL",
+        "url": "https://dev.mysql.com/",
+        "img_url": "/assets/images/logos/mysql.svg"
+    },
+    {
+        "technology": "jQuery",
+        "url": "https://jquery.com/",
+        "img_url": "/assets/images/logos/jquery.svg"
+    },
+    {
+        "technology": "XML",
+        "url": "https://www.w3schools.com/xml/xml_whatis.asp",
+        "img_url": "/assets/images/logos/xml.svg"
+    },
+    {
+        "technology": "DCT",
+        "url": "https://www.duckcreek.com/",
+        "img_url": "/assets/images/logos/DCT.svg"
+    },
+    {
+        "technology": "Microsoft SQL Server",
+        "url": "https://www.microsoft.com/en-ca/sql-server/sql-server-downloads",
+        "img_url": "/assets/images/logos/microsoft-sql-server.svg"
+    }
+]

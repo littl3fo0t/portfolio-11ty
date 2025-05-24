@@ -25,6 +25,16 @@
         "img_url": "/assets/images/logos/vitejs.svg"
     },
     {
+        "technology": "11ty",
+        "url": "https://www.11ty.dev/",
+        "img_url": "/assets/images/logos/eleventy.svg"
+    },
+    {
+        "technology": "Node.js",
+        "url": "https://nodejs.org/",
+        "img_url": "/assets/images/logos/nodejs.svg"
+    },
+    {
         "technology": "Python",
         "url": "https://www.python.org/",
         "img_url": "/assets/images/logos/python.svg"

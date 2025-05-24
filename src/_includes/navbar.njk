@@ -1,7 +1,6 @@
 {% set navbarItems = navbar[locale] %}
 <nav>[ 
   {% for key, item in navbarItems %}
-    {# Translate by directly accessing the global i18n object #}
     <a href="{{ item.url }}">{{ i18n[locale][item.label] }}</a>{% if not loop.last %} | {% endif %}
   {% endfor %}
    ]

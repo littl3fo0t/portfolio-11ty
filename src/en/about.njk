@@ -1,0 +1,178 @@
+---
+locale: en
+layout: layout.njk
+---
+
+<h1>About Me</h1>
+
+<h2 id="table-of-contents">📋 Table of Contents</h1>
+    <ol>
+        <li>
+            <a href="#my-links">🔗 My Links</a>
+        </li>
+        <li>
+            <a href="#my-story">😎 My Story</a>
+        </li>
+        <li>
+            <a href="#my-projects">🗂️ My Projects</a>
+        </li>
+        <li>
+            <a href="#my-experience">🏢 My Experiences</a>
+        </li>
+        <li>
+            <a href="#my-education">🏫 My Education</a>
+        </li>
+        <li>
+            <a href="#my-certificates">📄 My Certificates</a>
+        </li>
+    </ol>
+
+    <h2 id="my-links">🔗 My Links</h2>
+    <div class="links-container">
+        <a href="https://www.linkedin.com/in/thomasbrun1/" target="_blank" rel="noopener noreferrer">My LinkedIn</a> |
+        <a href="https://github.com/littl3fo0t/" target="_blank" rel="noopener noreferrer">My GitHub</a> |
+        <a href="/assets/documents/resumes/Resume-english.pdf" target="_blank">My Resume</a>
+    </div>
+
+    <h2 id="my-story">😎 My Story</h2>
+    <p>
+        Ever since childhood, I have always been fascinated by the way computers work; however, this was more of a
+        hobby
+        than anything else. I would mainly read online forums and watch videos on YouTube concerning topics ranging
+        from
+        mobile app development to software engineering. Additionally, being born and raised on the island nation of
+        Mauritius, I have witnessed first-hand the need for my country to shift from tourism to education and IT
+        services as
+        our main source of income. As such, when it came time for me to go to university, I decided to take the
+        dive, head
+        to Canada, and fully immerse myself in a Computer Science degree. Nine years later, I can confidently say
+        that this
+        is an industry about which I am still passionate and want to learn more.
+
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
+    </p>
+
+    <h2 id="my-experience">🏢 My Experience</h2>
+    <strong>
+        <a href="https://www.axiscapital.com/" target="_blank" rel="noopener noreferrer">AXIS Capital</a>
+    </strong>
+    <p>
+        Worked on the policy side of the Duck Creek platform to implement enchancements.
+        <br>
+        <br>
+        <strong>Senior Developer &ndash; Duck Creek Policy</strong>
+        <br>
+        <strong class="timeline">Feb 2024 &ndash; Jun 2024</strong>
+        <br>
+        ✅ Contributed to the transition from On-Prem to Duck Creek on Demand (DCOD).
+        <br>
+        ✅ Made heavy use of Server Requests and XSLT for transforming XML documents.
+        <br>
+        ✅ Worked with SQL Server and Stored Procedures.
+        <br>
+        <br>
+        <strong>Developer &ndash; Duck Creek Policy</strong>
+        <br>
+        <strong class="timeline">Aug 2020 &ndash; Feb 2024</strong>
+        <br>
+        ✅ Provided day-to-day application development support for the Duck Creek platform.
+        <br>
+        ✅ Engaged in end-to-end Unit Testing of all changes made.
+        <br>
+        ✅ Contributed to the initial conception and development of two new insurance products.
+        <br>
+        ✅ Implemented several new and modified existing forms across various Lines of Business and Products.
+        <br>
+        ✅ Made use of tools like Trace Monitor and Utility Center to analyze and resolve reported bugs.
+        <br>
+        ✅ Liaised between technical and non-technical resource team members to answer day-to-day business questions
+        and provide progress updates.
+        <br>
+        ✅ Used Git for version control and deployments.
+        <br>
+        ✅ Adhered to best coding practices and kept detailed reports of changes done.
+        <br>
+        ✅ Participated in peer-code review.
+        <br>
+        ✅ Followed Agile methodologies by attending and participating in daily stand-up meetings, sprint planning,
+        and retrospectives.
+    </p>
+
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
+
+    <hr>
+
+    <strong>
+        <a href="https://mcb.mu/" target="_blank" rel="noopener noreferrer">The Mauritius Commecial Bank (MCB)</a>
+    </strong>
+    <p>
+        Worked in the IT Applications Support & Development Business Unit and was responsible for responding to urgent
+        queries requested by staff using SQL to mine the data and Microsoft Excel to present it in the appropriate
+        format, all within agreed deadlines.
+        <br>
+        <br>
+        <strong>Information Technology Trainee</strong>
+        <br>
+        <strong class="timeline">May 2019 &ndash; Jul 2019</strong>
+        <br>
+        ✅ Diligently provided end to end follow up with staff members either face-to-face or via phone call,
+        ensuring correctness of completed requests.
+        <br>
+        ✅ Patiently provided guidance to new trainees on extraction requests.
+        <br>
+        ✅ emonstrated initiative by creating a centralized repository for recurrent requests that will used by future
+        trainees.
+        <br>
+        ✅ Continually worked alongside staff, investigating and resolving issues related to data warehouse reports.
+        <br>
+        ✅ Received excellent feedback from the business.
+    </p>
+
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
+
+    <h2 id="my-projects">🗂️ My Projects</h2>
+    <ol>
+        {% for project in collections.projects %}
+            <li>
+                <strong>
+                    <a href="{{ project.url }}">
+                        {{ project.data.title }}
+                    </a>
+                </strong>
+                 &ndash; {{ project.data.description }}
+            </li>
+        {% endfor %}
+    </ol>
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
+
+    <h2 id="my-education">🏫 My Education</h2>
+    <strong>
+        <a href="https://www.smu.ca/" target="_blank" rel="noopener noreferrer">Saint Mary's University (SMU)</a>
+    </strong>
+    <p>
+        <strong>BSc Computer Science and Business Administration</strong>
+        <br>
+        <strong class="timeline">2016 &ndash; 2020</strong>
+        <br>
+        <strong>GPA:</strong> 3.40
+    </p>
+    <h3>🏆 My Awards</h3>
+    <p>
+        <strong>SMU Faculty of Science Dean's List</strong>
+        <br>
+        <strong class="timeline">Aug 2019</strong>
+    </p>
+    <p>
+        <strong>The MT&T Computing Science and Business Administration Scholarship</strong>
+        <br>
+        <strong class="timeline">Aug 2019</strong>
+        <br>
+        Awarded annually to 3 full-time students registered in the Computing Science and Business Administration Program on the basis of strong academic achievement.
+    </p>
+
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
+
+    <h2 id="my-certificates">📄 My Certificates</h2>
+    {% include "certificates.njk" %}
+
+    <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>

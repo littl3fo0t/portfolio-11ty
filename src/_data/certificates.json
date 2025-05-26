@@ -1,0 +1,44 @@
+[
+    {
+        "name": {
+            "en": "Learn Intermediate JavaScript Course",
+            "fr": "Cours d'apprentissage JavaScript Intermédiaire"
+        },
+        "url": "/assets/documents/certificates/Learn-Intermediate-JavaScript.pdf"
+    },
+    {
+        "name": {
+            "en": "Learn JavaScript Course",
+            "fr": "Cours d'apprentissage JavaScript"
+        },
+        "url": "/assets/documents/certificates/Learn-JavaScript-Course.pdf"
+    },
+    {
+        "name": {
+            "en": "Learn Go: Loops, Arrays, Maps, and Structs Course",
+            "fr": "Cours d'apprentissage Go: Boucles, Tableaux, Maps et Structs"
+        },
+        "url": "/assets/documents/certificates/Go-Intermediate-Course.pdf"
+    },
+    {
+        "name": {
+            "en": "Learn Go Course",
+            "fr": "Cours d'initiation au langage Go"
+        },
+        "url": "/assets/documents/certificates/Learn-Go.pdf"
+    },
+    {
+        "name": {
+            "en": "Learn ASP.NET Course",
+            "fr": "Cours d'apprentissage ASP.NET"
+        },
+        "url": "/assets/documents/certificates/Learn-ASPNET.pdf"
+    },
+    {
+        "name": {
+            "en": "Learn C# Course",
+            "fr": "Cours d'initiation au C#"
+        },
+        "url": "/assets/documents/certificates/Learn-CSharp.pdf"
+    }
+]

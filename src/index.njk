@@ -1,0 +1,20 @@
+---
+permalink: /
+layout: layout.njk
+---
+
+<script>
+  const preferredLanguage = navigator.language;
+  const redirectTextP = document.getElementById("redirect-text");
+  let redirectText;
+  if (preferredLanguage.toLowerCase() === "fr-fr") {
+    redirectText = "Je vous redirige vers la version française, veuillez patienter...";
+    window.location.href = "/fr/";
+  } else {
+    redirectText = "Redirecting to English version, please wait...";
+    window.location.href = "/en/";
+  }
+  redirectTextP.textContent = redirectText;
+</script>
+
+<p id="redirect-text"></p>

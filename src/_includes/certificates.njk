@@ -1,0 +1,5 @@
+<div class="links-container">
+    {% for certificate in certificates %}
+        <a href="{{ certificate.url }}" target="_blank">{{ certificate.name[locale] }}</a>{% if not loop.last %} | {% endif %}
+    {% endfor %}
+</div>

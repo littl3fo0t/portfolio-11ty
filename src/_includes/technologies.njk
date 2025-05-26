@@ -1,7 +1,15 @@
-<div class="technologies-container">
-    {% for item in technologies %}
+{% set header = technologies[locale].header %}
+{% set subtitle = technologies[locale].subtitle %}
+{% set items = technologies.data %}
+
+<section>
+    <h2>{{ header }}</h2>
+    <strong>{{ subtitle }}</strong>
+    <div class="technologies-container">
+    {% for item in items %}
         <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="technology-link">
             <img src="{{ item.img_url }}" alt="{{ item.technology }}">
         </a>
     {% endfor %}
 </div>
+</section>

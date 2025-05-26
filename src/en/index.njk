@@ -3,16 +3,10 @@ locale: en
 layout: layout.njk
 ---
 
-{% set locale = "en" %}
-
 {% include "header.njk" %}
 
 <p>
-    I'm an aspiring <strong>Full-Stack Developer</strong> from the island of Mauritius 🐢 based in Halifax, Nova Scotia 🍁.
+    I'm an aspiring <strong>Full-Stack Developer</strong> from the island of Mauritius 🐢 based in Halifax, Nova Scotia 🍁. Fluent in both <strong>English</strong> and <strong>French</strong>.
 </p>
 
-<section>
-    <h2>Technologies I have experience with:</h2>
-    <strong>(click on any of them to learn more 👀)</strong>
-    {% include "technologies.njk" %}
-</section>
+{% include "technologies.njk" %}

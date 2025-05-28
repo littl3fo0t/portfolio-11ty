@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="/assets/css/sakura-earthly.css">
     <link rel="stylesheet" href="/assets/css/prism.css">
     <style>
-        h1, h2, h3, nav {
+        h1 {
             text-align: center;
         }
-        
+
+        .is-center {
+            text-align: center;
+        }
+
         .profile-picture {
             display: block;
             margin-left: auto;
@@ -29,12 +33,12 @@
             padding: 20px;
         }
 
-        .technologies-container > a {
+        .technologies-container>a {
             text-decoration: none;
-            
+
         }
 
-        .technologies-container > a > img {
+        .technologies-container>a>img {
             height: 40px;
             width: auto;
             transition: all 0.3s ease;
@@ -64,6 +68,11 @@
             justify-content: center;
             align-items: center;
         }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+        }
     </style>
     <title>Thomas Brun - {{ title }}</title>
 </head>
@@ -71,9 +80,10 @@
 <body>
     <main>
         {{ content | safe }}
-        <hr>
-        <a href="/en/">English</a> | <a href="/fr/">Français</a>
     </main>
+    <hr>
+    {% include "footer.njk" %}
     <script src="/assets/js/prism.js"></script>
+</body>
 
 </html>

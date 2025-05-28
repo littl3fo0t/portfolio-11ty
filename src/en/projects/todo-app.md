@@ -1,18 +1,29 @@
 ---
 title: "To-Do List"
-description: "A simple To-Do List app created using Vite, React and TypeScritpt"
+description: "A simple To-Do List app created using Vite, React and TypeScript"
+date: 2025-04-22
 tags: "projects"
 permalink: /en/projects/todo-app.html
 layout: layout.njk
 ---
 
+<a id="top"></a>
+
 # To-Do List
 
-## 📝 Project Overview
+## 🔍 Project Overview
 
 A simple Todo app where the user can create a todo list and mark each item as complete as they go. This was my first time coding outside of the [Codecademy](https://www.codecademy.com/) environment while enrolled in their [Create an Advanced Web App with React and Redux](https://www.codecademy.com/learn/paths/advanced-react-redux-sp) Skill Path. I wanted to challenge myself by creating a simple app that would use [Vite](https://vite.dev/) as the build tool instead of the traditional Create React App CLI, which I had been using up to this point, as well as [TypeScript](https://www.typescriptlang.org/) instead of JavaScript.
 
 ### ❓ What Did I Learn?
+
+#### 🚀 TL;DR
+
+1. Creating a React app using Vite.
+2. The differences between creating a React app with Vite versus Create React App.
+3. TypeScript and it's importance in detecting issues early.
+
+<p class="back-to-top">(<a href="#top">back to top</a>)</p>
 
 #### ⚔️ Vite vs Create React App (CRA)
 
@@ -55,6 +66,8 @@ npm run dev
 In short, Vite is a more modern, faster, and flexible option compared to CRA, which is older, slower, and more opinionated.
 
 From my experience, an essential feature of modern app/website development is 🔥 Hot Module Replacement (HMR), which allows changes to be reflected in the browser automatically without needing to refresh and lose app state. This happens when you save changes to a file. While HMR is a built-in feature in both CRA and Vite, it is noticeably faster and more reliable in Vite.
+
+<p class="back-to-top">(<a href="#top">back to top</a>)</p>
 
 #### 🤔 Why Use TypeScript?
 
@@ -114,3 +127,5 @@ export const ContactForm: React.FC<ContactFormProps> = ({ addContact }) => {
 ```
 
 Had I tried to use `addContact` the wrong way, my IDE would have warned me immediately, and I could have fixed it on the spot.
+
+<p class="back-to-top">(<a href="#top">back to top</a>)</p>

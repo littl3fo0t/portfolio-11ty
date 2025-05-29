@@ -1,0 +1,29 @@
+{% set currentLangProjects = collections.projets if page.lang == "fr" else collections.projects %}
+{% set currentProjectIndex = currentLangProjects | getCollectionItemIndex %}
+{% set previousProject = currentLangProjects | getPreviousCollectionItem %}
+{% set nextProject = currentLangProjects | getNextCollectionItem %}
+<div class="project-navigation">
+    <input
+        class="previous-project"
+        type="button" 
+        {% if previousProject %}
+            onclick="location.href='{{ previousProject.url }}';"
+            value="{{ "Projet précédent" if page.lang == "fr" else "Previous Project" }}"
+        {% else %}
+            {% if page.lang == "fr" %}
+                onclick="location.href='/fr/a-propos/';"
+            {% else %}
+                onclick="location.href='/en/about/';"
+            {% endif %}
+            value="{{ "Retour à la page À Propos" if page.lang == "fr" else "Return to About Page" }}"
+        {% endif %}
+    >
+    {% if nextProject %}
+        <input
+            class="next-project"
+            type="button"
+            onclick="location.href='{{ nextProject.url }}';"
+            value="{{ "Projet suivant" if page.lang == "fr" else "Next Project" }}"
+        >
+    {% endif %}
+</div>

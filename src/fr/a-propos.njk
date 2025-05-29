@@ -1,9 +1,10 @@
 ---
-locale: fr
 layout: layout.njk
 ---
 
 <h1>À Propos de Moi</h1>
+
+{% include "navbar.njk" %}
 
 <h2 id="table-of-contents">📋 Sommaire</h1>
     <ol>
@@ -131,18 +132,9 @@ layout: layout.njk
     <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
 
     <h2 id="my-projects">🗂️ My Projects</h2>
-    <ol>
-        {% for project in collections.projects %}
-            <li>
-                <strong>
-                    <a href="{{ project.url }}">
-                        {{ project.data.title }}
-                    </a>
-                </strong>
-                 &ndash; {{ project.data.description }}
-            </li>
-        {% endfor %}
-    </ol>
+
+    {% include "project_list.njk" %}
+
     <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
 
     <h2 id="my-education">🏫 My Education</h2>
@@ -173,6 +165,7 @@ layout: layout.njk
     <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>
 
     <h2 id="my-certificates">📄 My Certificates</h2>
+    
     {% include "certificates.njk" %}
 
     <p class="back-to-top">(<a href="#table-of-contents">back to top</a>)</p>

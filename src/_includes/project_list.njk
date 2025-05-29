@@ -1,0 +1,14 @@
+{% set currentLangProjects = collections.projets if page.lang == "fr" else collections.projects %}
+
+<ol>
+    {% for project in currentLangProjects %}
+    <li>
+        <strong>
+            <a href="{{ project.url }}">
+                {{ project.data.title }}
+            </a>
+        </strong>
+        &ndash; {{ project.data.description }}
+    </li>
+    {% endfor %}
+</ol>

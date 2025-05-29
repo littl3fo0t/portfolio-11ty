@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}" dir="{{ dir }}">
+<html lang="{{ lang }}" dir="{{ dir }}">
 
 <head>
     <meta charset="UTF-8">
@@ -69,6 +69,12 @@
             align-items: center;
         }
 
+        .project-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         footer {
             text-align: center;
             padding: 3px;
@@ -81,6 +87,9 @@
     <main>
         {{ content | safe }}
     </main>
+    {% if "projects" in page.url or "projets" in page.url %}
+        {% include "project_navigation.njk" %}
+    {% endif %}
     <hr>
     {% include "footer.njk" %}
     <script src="/assets/js/prism.js"></script>

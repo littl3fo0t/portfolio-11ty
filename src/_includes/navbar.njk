@@ -1,7 +1,7 @@
-{% set navbarItems = navbar[locale] %}
+{% set navbarItems = navbar[lang] %}
 <nav class="is-center">[ 
   {% for key, item in navbarItems %}
-    <a href="{{ item.url }}">{{ i18n[locale][item.label] }}</a>{% if not loop.last %} | {% endif %}
+    <a href="{{ item.url }}">{{ i18n[lang][item.label] }}</a>{% if not loop.last %} | {% endif %}
   {% endfor %}
    ]
 </nav>

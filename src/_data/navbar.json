@@ -2,21 +2,25 @@
     "en": {
         "home": {
             "url": "/en/",
-            "label": "home"
+            "label": "home",
+            "disabled": false
         },
         "about": {
             "url": "/en/about/",
-            "label": "about"
+            "label": "about",
+            "disabled": false
         }
     },
     "fr": {
         "home": {
             "url": "/fr/",
-            "label": "home"
+            "label": "home",
+            "disabled": false
         },
         "about": {
             "url": "/fr/a-propos/",
-            "label": "about"
+            "label": "about",
+            "disabled": true
         }
     }
 }

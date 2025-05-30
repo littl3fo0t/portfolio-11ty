@@ -1,7 +1,7 @@
 {% set navbarItems = navbar[lang] %}
 <nav class="is-center">[ 
   {% for key, item in navbarItems %}
-    <a href="{{ item.url }}">{{ i18n[lang][item.label] }}</a>{% if not loop.last %} | {% endif %}
+    <a href="{{ item.url if not item.disabled else "#" }}">{{ i18n[lang][item.label] }} {{ "(WIP)" if item.disabled }}</a>{% if not loop.last %} | {% endif %}
   {% endfor %}
    ]
 </nav>

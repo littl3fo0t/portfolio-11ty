@@ -1,6 +1,7 @@
 ---
 title: "Yu-Gi-Oh! Card Searching App (version 1)"
 description: "A simple card search app for the Yu-Gi-Oh! trading card game built using HTML and vanilla JavaScript."
+disabled: false
 date: 2025-04-01
 tags: "projects"
 permalink: /en/projects/card-search-v1.html

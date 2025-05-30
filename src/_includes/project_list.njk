@@ -4,8 +4,8 @@
     {% for project in currentLangProjects %}
     <li>
         <strong>
-            <a href="{{ project.url }}">
-                {{ project.data.title }}
+            <a href="{{ "#" if project.data.disabled else project.url }}">
+                {{ project.data.title }} {{ "(WIP)" if project.data.disabled }}
             </a>
         </strong>
         &ndash; {{ project.data.description }}

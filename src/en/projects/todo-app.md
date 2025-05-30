@@ -1,6 +1,7 @@
 ---
 title: "To-Do List"
 description: "A simple To-Do List app created using Vite, React and TypeScript"
+disabled: false
 date: 2025-04-22
 tags: "projects"
 permalink: /en/projects/todo-app.html

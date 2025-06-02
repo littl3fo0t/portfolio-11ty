@@ -20,7 +20,7 @@
         "about": {
             "url": "/fr/a-propos/",
             "label": "about",
-            "disabled": true
+            "disabled": false
         }
     }
 }

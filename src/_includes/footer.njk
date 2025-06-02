@@ -3,8 +3,15 @@
     <p>
         &copy; 2025 Thomas Brun (<a href="mailto:thomas.brun.1703@hotmail.com">thomas.brun.1703@hotmail.com</a>)
         <br>
-        Website built using <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>, styled
-        with <a href="https://github.com/oxalorg/sakura" target="_blank" rel="noopener noreferrer">sakura</a>
-        and syntax highlighting with <a href="https://prismjs.com/" target="_blank" rel="noopener noreferrer">Prism</a>.
+        {% if page.lang == "fr" %}
+            Ce site Web a été créé avec <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>, 
+            stylisé avec <a href="https://github.com/oxalorg/sakura" target="_blank" rel="noopener noreferrer">sakura</a> 
+            et coloration syntaxique par <a href="https://prismjs.com/" target="_blank" rel="noopener noreferrer">Prism</a>.
+        {% else %}
+            Website built using <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">11ty</a>, styled
+            with <a href="https://github.com/oxalorg/sakura" target="_blank" rel="noopener noreferrer">sakura</a>
+            and syntax highlighting with <a href="https://prismjs.com/" target="_blank" rel="noopener noreferrer">Prism</a>.
+        {% endif %}
+        
     </p>
 </footer>
